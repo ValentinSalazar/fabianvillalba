@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Astro Starter Kit: Minimal
 
 ```
@@ -45,3 +46,10 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+=======
+# Farming business
+
+Landing Page using Astro + TailwindCSS and DaisyUI.
+
+This business needs to show its services about farming. Also, it has to improve its reputation and obtain new clients.
+>>>>>>> 526ac037df3f1e69f819da8078f18e44710b1c76
