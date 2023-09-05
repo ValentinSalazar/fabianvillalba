@@ -1,0 +1,8 @@
+---
+const {service, iconImg, href} = Astro.props;
+---
+
+<a href={href} class="cursor-pointer shadow-2xl relative flex items-center justify-center w-80 h-[50px] md:h-[60px] rounded-full bg-primary border-2 border-transparent p-2 text-white hover:border-white transition-[border]">
+    <img src={iconImg} alt="Icono de vaca" class="text-xs scale-[0.70] absolute left-2">
+    <h1 class="font-semibold uppercase tracking-widest selection:bg-white selection:text-primary">{ service }</h1>
+</a>

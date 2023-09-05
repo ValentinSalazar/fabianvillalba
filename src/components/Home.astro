@@ -1,0 +1,20 @@
+---
+import ServiceCard from './ServiceCard.astro'
+import cow from '../assets/cow.svg'
+---
+
+
+<main class="flex flex-col justify-center items-center h-screen backdrop-blur-[2px] pt-20 md:pt-0">
+   <div class="flex flex-col gap-1 mb-20 md:gap-3 lg:gap-5 lg:mb-14 relative top-6">
+        <h1 class="font-bold text-4xl text-[#73BA9B] text-center md:text-5xl lg:text-6xl selection:bg-primary selection:text-white">¡Bienvenidos!</h1>
+        <h3 class="text-[#333333] font-medium text-balance text-center px-10 text-lg relative md:text-2xl selection:bg-primary selection:text-white">Con mas de 10 años en el rubro, nos especializamos en brindar multiples servicios.</h3>
+        
+   </div>
+   <p class="px-[10vw] text-balance text-center text-white font-light mb-3 mt-10 md:text-white md:mb-5 md:text-lg md:mt-10 selection:bg-primary selection:text-white">Haz click en el servicio que te interese y conoce mas detalles.</p>
+   <div class="flex items-center gap-5 flex-col md:grid md:grid-cols-2 md:gap-10">
+        <ServiceCard service="Transporte" iconImg="truck.png"/>
+        <ServiceCard service="Granos" iconImg="seed.png"/>
+        <ServiceCard service="Caballos" iconImg="horse.png"/>
+        <ServiceCard service="Animales" iconImg="/cow.png"/>
+    </div>
+</main>

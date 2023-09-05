@@ -1,0 +1,30 @@
+---
+import Navbar from '../components/Navbar.astro'
+import Home from '../components/Home.astro'
+import WhatsApp from '../components/WhatsApp.astro';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="stylesheet" href="../../src/index.css">
+		<title>Fabian Villalba 2023</title>
+	</head>
+	<body class="font-[poppins] h-screen" id="index">
+		<Navbar />
+		<Home />
+		<WhatsApp />
+	</body>
+</html>
+
+
+<style is:global>
+	@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+	.text-balance {
+		text-wrap: balance;
+	}
+</style>
+	
